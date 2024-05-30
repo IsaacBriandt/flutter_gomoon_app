@@ -37,7 +37,10 @@ class Homepage extends StatelessWidget {
                   )
                 ],
               ),
-              _astroImageWidget()
+              Align(
+                alignment: Alignment.centerRight,
+                child: _astroImageWidget(),
+              )
             ],
           ),
         ),
