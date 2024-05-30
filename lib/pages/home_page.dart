@@ -64,7 +64,8 @@ class Homepage extends StatelessWidget {
 
   Widget _destinationDropDown() {
     return CustomDropDownButtonClass(
-        values: const ["Gob3 Station", "Agadoo Waakye"], width: _deviceWidth);
+        values: const ["Gob3 Station", "Agadoo Waakye", "Angwamoo"],
+        width: _deviceWidth);
   }
 
   Widget _travellersInfoWidget() {
